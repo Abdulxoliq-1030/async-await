@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "age": 21,
+    "job": "Developer"
+  },
+  {
+    "id": 2,
+    "age": 41,
+    "job": "Teacher"
+  },
+  {
+    "id": 3,
+    "age": 60,
+    "job": "Teacher"
+  }
+]

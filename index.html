@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Lesson-90</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-zone hide">
+        <form id="login-form">
+          <label for="username-input">Enter Username</label>
+          <input
+            type="text"
+            id="username-input"
+            placeholder="Enter username..."
+          />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <div class="todo-zone">
+        <div>
+          <label for="description-input">Enter Todo</label>
+          <input
+            type="text"
+            id="description-input"
+            placeholder="Todo Enter..."
+          />
+        </div>
+
+        <button type="button" id="add-todo-btn">Add Todo</button>
+
+        <table class="table table-bordered">
+          <thead class="bg-dark text-light">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Description</th>
+              <th scope="col">Username</th>
+              <th scope="col">Completed</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button id="load-todos-btn">Load Todos</button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
